@@ -5,7 +5,7 @@ import {
   StyleSheet,
   TextInput,
   Platform,
-  FlatList
+  FlatList,
 } from 'react-native';
 
 import { Button } from "../components/Button.js";
@@ -34,6 +34,7 @@ export function Home() {
 
   return (
     <View style={styles.container}>
+
       <Text style={styles.title}>Welcome, Tiago</Text>
 
       <Text style={styles.greetings}>
