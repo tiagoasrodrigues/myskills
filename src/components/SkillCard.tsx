@@ -29,7 +29,8 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 50,
     alignItems: 'center',
-    marginVertical: 10
+    marginVertical: 10,
+
   },
   textSkill: {
     color: '#FFF',
