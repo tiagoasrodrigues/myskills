@@ -8,12 +8,12 @@ import {
   FlatList,
 } from 'react-native';
 
-import { Button } from "../components/Button.js";
-import { SkillCard } from "../components/SkillCard.js";
+import { Button } from "../components/Button";
+import { SkillCard } from "../components/SkillCard";
 
 interface SkillData {
-  id: String;
-  name: String;
+  id: string;
+  name: string;
 }
 
 export function Home() {
@@ -57,7 +57,10 @@ export function Home() {
         onChangeText={setNewSkill}
       />
 
-      <Button onPress={handleAddNewSkill} />
+      <Button
+        title='Add'
+        onPress={handleAddNewSkill}
+      />
 
       <Text style={[styles.title, { marginVertical: 50 }]}>
         My Skills
