@@ -111,3 +111,5 @@ const styles = StyleSheet.create({
     color: '#FFF',
   }
 });
+
+//Encerramento do Módulo
